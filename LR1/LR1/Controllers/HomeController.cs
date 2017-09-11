@@ -31,5 +31,10 @@ namespace LR1.Controllers
         {
             return View();
         }
+
+        public int Kostuyl()
+        {
+            return 0;
+        }
     }
 }
