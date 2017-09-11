@@ -1,0 +1,9 @@
+C:\Users\Владимир\Desktop\LR1\LR1\LR1\bin\Debug\netcoreapp1.1\LR1.deps.json
+C:\Users\Владимир\Desktop\LR1\LR1\LR1\bin\Debug\netcoreapp1.1\LR1.runtimeconfig.json
+C:\Users\Владимир\Desktop\LR1\LR1\LR1\bin\Debug\netcoreapp1.1\LR1.runtimeconfig.dev.json
+C:\Users\Владимир\Desktop\LR1\LR1\LR1\bin\Debug\netcoreapp1.1\LR1.dll
+C:\Users\Владимир\Desktop\LR1\LR1\LR1\bin\Debug\netcoreapp1.1\LR1.pdb
+C:\Users\Владимир\Desktop\LR1\LR1\LR1\obj\Debug\netcoreapp1.1\LR1.csprojResolveAssemblyReference.cache
+C:\Users\Владимир\Desktop\LR1\LR1\LR1\obj\Debug\netcoreapp1.1\LR1.AssemblyInfo.cs
+C:\Users\Владимир\Desktop\LR1\LR1\LR1\obj\Debug\netcoreapp1.1\LR1.dll
+C:\Users\Владимир\Desktop\LR1\LR1\LR1\obj\Debug\netcoreapp1.1\LR1.pdb
