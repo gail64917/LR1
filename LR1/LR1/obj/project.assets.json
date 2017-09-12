@@ -1,5 +1,5 @@
 {
-  "version": 2,
+  "version": 3,
   "targets": {
     ".NETCoreApp,Version=v1.1": {
       "Libuv/1.9.1": {
@@ -3772,8 +3772,6 @@
       "type": "package",
       "path": "microsoft.applicationinsights/2.2.0",
       "files": [
-        "Microsoft.ApplicationInsights.2.2.0.nupkg.sha512",
-        "Microsoft.ApplicationInsights.nuspec",
         "lib/net40/Microsoft.ApplicationInsights.XML",
         "lib/net40/Microsoft.ApplicationInsights.dll",
         "lib/net45/Microsoft.ApplicationInsights.XML",
@@ -3784,7 +3782,9 @@
         "lib/netstandard1.5/Microsoft.ApplicationInsights.dll",
         "lib/portable-win81+wpa81/Microsoft.ApplicationInsights.dll",
         "lib/uap10.0/Microsoft.ApplicationInsights.dll",
-        "lib/wp8/Microsoft.ApplicationInsights.dll"
+        "lib/wp8/Microsoft.ApplicationInsights.dll",
+        "microsoft.applicationinsights.2.2.0.nupkg.sha512",
+        "microsoft.applicationinsights.nuspec"
       ]
     },
     "Microsoft.ApplicationInsights.AspNetCore/2.0.0": {
@@ -5079,8 +5079,6 @@
       "type": "package",
       "path": "newtonsoft.json/9.0.1",
       "files": [
-        "Newtonsoft.Json.9.0.1.nupkg.sha512",
-        "Newtonsoft.Json.nuspec",
         "lib/net20/Newtonsoft.Json.dll",
         "lib/net20/Newtonsoft.Json.xml",
         "lib/net35/Newtonsoft.Json.dll",
@@ -5095,6 +5093,8 @@
         "lib/portable-net40+sl5+wp80+win8+wpa81/Newtonsoft.Json.xml",
         "lib/portable-net45+wp80+win8+wpa81/Newtonsoft.Json.dll",
         "lib/portable-net45+wp80+win8+wpa81/Newtonsoft.Json.xml",
+        "newtonsoft.json.9.0.1.nupkg.sha512",
+        "newtonsoft.json.nuspec",
         "tools/install.ps1"
       ]
     },
@@ -9910,23 +9910,41 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Владимир\\.nuget\\packages\\": {}
+    "C:\\Users\\Natasha\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
+    "restoreSettings": {
+      "hideWarningsAndErrors": true
+    },
     "restore": {
-      "projectUniqueName": "C:\\Users\\Владимир\\Desktop\\LR1\\LR1\\LR1\\LR1.csproj",
+      "projectUniqueName": "C:\\Users\\Natasha\\Desktop\\LR1\\LR1\\LR1\\LR1.csproj",
       "projectName": "LR1",
-      "projectPath": "C:\\Users\\Владимир\\Desktop\\LR1\\LR1\\LR1\\LR1.csproj",
-      "outputPath": "C:\\Users\\Владимир\\Desktop\\LR1\\LR1\\LR1\\obj\\",
+      "projectPath": "C:\\Users\\Natasha\\Desktop\\LR1\\LR1\\LR1\\LR1.csproj",
+      "packagesPath": "C:\\Users\\Natasha\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Natasha\\Desktop\\LR1\\LR1\\LR1\\obj\\",
       "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Natasha\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
       "originalTargetFrameworks": [
         "netcoreapp1.1"
       ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
       "frameworks": {
         "netcoreapp1.1": {
           "projectReferences": {}
         }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
       }
     },
     "frameworks": {
