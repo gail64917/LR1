@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using WebApplication1;
 
-namespace XUnitTestProject1
+namespace XUnitTest
 {
     public class UnitTest
     {

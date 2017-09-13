@@ -6,4 +6,4 @@ dotnet: 2.0.0
 before_script:
   - dotnet restore
 script:  
-  - dotnet test ./gail64917.LR1.XUnitTest -c Debug 
+  - dotnet test ./gail64917.LR1.XUnitTest -c Release -f net451
