@@ -1,0 +1,11 @@
+C:\Users\Natasha\Desktop\LR1\WebApplication1\bin\Debug\netcoreapp2.0\LR1.deps.json
+C:\Users\Natasha\Desktop\LR1\WebApplication1\bin\Debug\netcoreapp2.0\LR1.runtimeconfig.json
+C:\Users\Natasha\Desktop\LR1\WebApplication1\bin\Debug\netcoreapp2.0\LR1.runtimeconfig.dev.json
+C:\Users\Natasha\Desktop\LR1\WebApplication1\bin\Debug\netcoreapp2.0\LR1.dll
+C:\Users\Natasha\Desktop\LR1\WebApplication1\bin\Debug\netcoreapp2.0\LR1.pdb
+C:\Users\Natasha\Desktop\LR1\WebApplication1\obj\Debug\netcoreapp2.0\LR1.csprojResolveAssemblyReference.cache
+C:\Users\Natasha\Desktop\LR1\WebApplication1\obj\Debug\netcoreapp2.0\LR1.csproj.CoreCompileInputs.cache
+C:\Users\Natasha\Desktop\LR1\WebApplication1\obj\Debug\netcoreapp2.0\LR1.AssemblyInfoInputs.cache
+C:\Users\Natasha\Desktop\LR1\WebApplication1\obj\Debug\netcoreapp2.0\LR1.AssemblyInfo.cs
+C:\Users\Natasha\Desktop\LR1\WebApplication1\obj\Debug\netcoreapp2.0\LR1.dll
+C:\Users\Natasha\Desktop\LR1\WebApplication1\obj\Debug\netcoreapp2.0\LR1.pdb
