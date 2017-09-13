@@ -6,4 +6,5 @@ dotnet: 2.0.0
 before_script:
   - dotnet restore
 script:  
-  - dotnet test ./gail64917.LR1.XUnitTest -c Release -f net451
+  # - dotnet test ./gail64917.LR1.XUnitTest -c Release -f netcoreapp2.0
+  -dotnet build ./gail64917.LR1 -c Release -f netcoreapp2.0
