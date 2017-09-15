@@ -10,5 +10,6 @@
     <WebStackScaffolding_DbContextTypeFullName>LR1.Data.SchoolContext</WebStackScaffolding_DbContextTypeFullName>
     <WebStackScaffolding_IsAsyncSelected>False</WebStackScaffolding_IsAsyncSelected>
     <WebStackScaffolding_IsViewGenerationSelected>True</WebStackScaffolding_IsViewGenerationSelected>
+    <NameOfLastUsedPublishProfile>LR120170914065559 - Web Deploy</NameOfLastUsedPublishProfile>
   </PropertyGroup>
 </Project>

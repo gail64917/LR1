@@ -5,12 +5,23 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Properties\PublishProfiles\LR120170913040139 - Web Deploy.pubxml" />
+    <None Remove="Properties\PublishProfiles\LR120170913053249 - Web Deploy.pubxml" />
+    <None Remove="Properties\PublishProfiles\LR120170913055529 - Web Deploy.pubxml" />
+    <None Remove="Properties\PublishProfiles\LR12017novozhenov - Web Deploy.pubxml" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.0" />
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.0.0" />
   </ItemGroup>
 
   <ItemGroup>
     <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Properties\PublishProfiles\" />
   </ItemGroup>
 
 </Project>
