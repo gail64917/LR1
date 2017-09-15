@@ -6,4 +6,4 @@ dotnet: 2.0.0
 before-script:
   - dotnet restore
 script:
-  - dotnet test ./gail64917/LR1/XUnitTestProject1/Tests -c Release -f netcoreapp2.0
+  - dotnet test ./XUnitTestProject1/Tests -c Release -f netcoreapp2.0
