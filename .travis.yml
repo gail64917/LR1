@@ -3,5 +3,7 @@ sudo: required
 dist: trusty  
 mono: none
 dotnet: 2.0.0
-script:
+before-script:
   - dotnet restore
+script:
+  - dotnet test ./gail64917.LR1.XUnitTestProject1 -c Release -f netcoreapp2.0
