@@ -9,3 +9,5 @@ C:\Users\Natasha\Desktop\LR1\WebApplication1\obj\Release\netcoreapp2.0\LR1.Assem
 C:\Users\Natasha\Desktop\LR1\WebApplication1\obj\Release\netcoreapp2.0\LR1.AssemblyInfo.cs
 C:\Users\Natasha\Desktop\LR1\WebApplication1\obj\Release\netcoreapp2.0\LR1.dll
 C:\Users\Natasha\Desktop\LR1\WebApplication1\obj\Release\netcoreapp2.0\LR1.pdb
+C:\Users\Natasha\Desktop\LR1\WebApplication1\obj\Release\netcoreapp2.0\LR1.Properties.Resources.resources
+C:\Users\Natasha\Desktop\LR1\WebApplication1\obj\Release\netcoreapp2.0\LR1.csproj.GenerateResource.Cache
