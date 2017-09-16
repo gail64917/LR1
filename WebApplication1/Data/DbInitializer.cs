@@ -22,8 +22,8 @@ namespace LR1.Data
             {
             new Student{FirstMidName="Vladimir",LastName="Novozhenov",EnrollmentDate=DateTime.Parse("2017-09-01")},
             new Student{FirstMidName="Alexander",LastName="Zhuravlev",EnrollmentDate=DateTime.Parse("2017-09-01")},
-            new Student{FirstMidName="Natalia",LastName="Komova",EnrollmentDate=DateTime.Parse("2003-09-01")},
-            new Student{FirstMidName="Vladislav",LastName="Porin",EnrollmentDate=DateTime.Parse("2002-09-01")},
+            new Student{FirstMidName="Natalia",LastName="Komova",EnrollmentDate=DateTime.Parse("2017-09-01")},
+            new Student{FirstMidName="Vladislav",LastName="Porin",EnrollmentDate=DateTime.Parse("2017-09-01")},
             new Student{FirstMidName="Yan",LastName="Li",EnrollmentDate=DateTime.Parse("2002-09-01")},
             new Student{FirstMidName="Peggy",LastName="Justice",EnrollmentDate=DateTime.Parse("2001-09-01")},
             new Student{FirstMidName="Laura",LastName="Norman",EnrollmentDate=DateTime.Parse("2003-09-01")},
@@ -37,13 +37,13 @@ namespace LR1.Data
 
             var courses = new Course[]
             {
-            new Course{CourseID=1050,Title="Programming",Credits=3},
-            new Course{CourseID=4022,Title="Operation Systems",Credits=3},
-            new Course{CourseID=4041,Title="Parallel programming",Credits=3},
-            new Course{CourseID=1045,Title="RSOI",Credits=4},
-            new Course{CourseID=3141,Title="Neural webs",Credits=4},
-            new Course{CourseID=2021,Title="Compillers",Credits=3},
-            new Course{CourseID=2042,Title="Philosophy",Credits=4}
+            new Course{CourseID=1050,Title="Programming",StudyCredits=36},
+            new Course{CourseID=4022,Title="Operation Systems",StudyCredits=36},
+            new Course{CourseID=4041,Title="Parallel programming",StudyCredits=36},
+            new Course{CourseID=1045,Title="RSOI",StudyCredits=48},
+            new Course{CourseID=3141,Title="Neural webs",StudyCredits=48},
+            new Course{CourseID=2021,Title="Compillers",StudyCredits=36},
+            new Course{CourseID=2042,Title="Philosophy",StudyCredits=48}
             };
             foreach (Course c in courses)
             {

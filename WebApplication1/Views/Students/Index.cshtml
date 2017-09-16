@@ -1,10 +1,10 @@
 ﻿@model IEnumerable<LR1.Models.Student>
 
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Студенты";
 }
 
-<h2>Index</h2>
+<h2>Студенты</h2>
 
 <p>
     <a asp-action="Create">Create New</a>
@@ -13,13 +13,16 @@
     <thead>
         <tr>
                 <th>
-                    @Html.DisplayNameFor(model => model.LastName)
+                    Фамилия
+                    @*@Html.DisplayNameFor(model => model.LastName)*@
                 </th>
                 <th>
-                    @Html.DisplayNameFor(model => model.FirstMidName)
+                    Имя
+                    @*@Html.DisplayNameFor(model => model.FirstMidName)*@
                 </th>
                 <th>
-                    @Html.DisplayNameFor(model => model.EnrollmentDate)
+                    Дата начала обучения
+                    @*@Html.DisplayNameFor(model => model.EnrollmentDate)*@
                 </th>
             <th></th>
         </tr>

@@ -1,10 +1,10 @@
 ﻿@model IEnumerable<LR1.Models.Enrollment>
 
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Оценки";
 }
 
-<h2>Index</h2>
+<h2>Оценки</h2>
 
 <p>
     <a asp-action="Create">Create New</a>
@@ -12,14 +12,17 @@
 <table class="table">
     <thead>
         <tr>
-                <th>
-                    @Html.DisplayNameFor(model => model.Grade)
-                </th>
+               <th>
+                Студент
+                @*@Html.DisplayNameFor(model => model.Student)*@
+            </th> 
             <th>
-                @Html.DisplayNameFor(model => model.Course)
+                Курс
+                @*@Html.DisplayNameFor(model => model.Course)*@
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Student)
+                @*@Html.DisplayNameFor(model => model.Grade)*@
+                Оценка
             </th>
             <th></th>
         </tr>
@@ -28,13 +31,13 @@
 @foreach (var item in Model) {
         <tr>
             <td>
+                @Html.DisplayFor(modelItem => item.Student.LastName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Course.Title)
+            </td>
+            <td>
                 @Html.DisplayFor(modelItem => item.Grade)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Course.CourseID)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Student.ID)
             </td>
             <td>
                 <a asp-action="Edit" asp-route-id="@item.EnrollmentID">Edit</a> |
