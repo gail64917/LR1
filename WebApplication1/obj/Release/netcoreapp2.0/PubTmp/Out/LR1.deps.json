@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.0",
-    "signature": "cd945696cff90a9745d51031f9ca805e22e8725c"
+    "signature": "2053380d28251fd5b9474462e9cd2ee80b456d2d"
   },
   "compilationOptions": {
     "defines": [
@@ -24,6 +24,7 @@
       "LR1/1.0.0": {
         "dependencies": {
           "Microsoft.AspNetCore.All": "2.0.0",
+          "Microsoft.AspNetCore.TestHost": "2.0.0",
           "Microsoft.NETCore.App": "2.0.0",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "2.0.0"
         },
@@ -1323,6 +1324,17 @@
         },
         "compile": {
           "lib/netstandard2.0/Microsoft.AspNetCore.StaticFiles.dll": {}
+        }
+      },
+      "Microsoft.AspNetCore.TestHost/2.0.0": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Hosting": "2.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.TestHost.dll": {}
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.TestHost.dll": {}
         }
       },
       "Microsoft.AspNetCore.WebSockets/2.0.0": {
@@ -4915,6 +4927,13 @@
       "path": "microsoft.aspnetcore.staticfiles/2.0.0",
       "hashPath": "microsoft.aspnetcore.staticfiles.2.0.0.nupkg.sha512",
       "runtimeStoreManifestName": "aspnetcore-store-2.0.0-linux-x64.xml;aspnetcore-store-2.0.0-osx-x64.xml;aspnetcore-store-2.0.0-win7-x64.xml;aspnetcore-store-2.0.0-win7-x86.xml"
+    },
+    "Microsoft.AspNetCore.TestHost/2.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-TgOj8I2OX7INrk9nZELlviFwFtEsxysG2T0RmNmMP5Jo4nuEGMj6VNUUTsHcfaUppyb0BpbmUFsY36fi+QQBUg==",
+      "path": "microsoft.aspnetcore.testhost/2.0.0",
+      "hashPath": "microsoft.aspnetcore.testhost.2.0.0.nupkg.sha512"
     },
     "Microsoft.AspNetCore.WebSockets/2.0.0": {
       "type": "package",

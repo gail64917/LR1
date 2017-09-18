@@ -2,6 +2,16 @@ C:\Users\Natasha\Desktop\LR1\WebApplication1
 --output-path=obj\Release\netcoreapp2.0\
 --application-name=LR1
 --content-root=C:\Users\Natasha\Desktop\LR1\WebApplication1
+--file=C:\Users\Natasha\Desktop\LR1\WebApplication1\Views\Courses\Create.cshtml
+--file=C:\Users\Natasha\Desktop\LR1\WebApplication1\Views\Courses\Delete.cshtml
+--file=C:\Users\Natasha\Desktop\LR1\WebApplication1\Views\Courses\Details.cshtml
+--file=C:\Users\Natasha\Desktop\LR1\WebApplication1\Views\Courses\Edit.cshtml
+--file=C:\Users\Natasha\Desktop\LR1\WebApplication1\Views\Courses\Index.cshtml
+--file=C:\Users\Natasha\Desktop\LR1\WebApplication1\Views\Enrollments\Create.cshtml
+--file=C:\Users\Natasha\Desktop\LR1\WebApplication1\Views\Enrollments\Delete.cshtml
+--file=C:\Users\Natasha\Desktop\LR1\WebApplication1\Views\Enrollments\Details.cshtml
+--file=C:\Users\Natasha\Desktop\LR1\WebApplication1\Views\Enrollments\Edit.cshtml
+--file=C:\Users\Natasha\Desktop\LR1\WebApplication1\Views\Enrollments\Index.cshtml
 --file=C:\Users\Natasha\Desktop\LR1\WebApplication1\Views\Home\About.cshtml
 --file=C:\Users\Natasha\Desktop\LR1\WebApplication1\Views\Home\Contact.cshtml
 --file=C:\Users\Natasha\Desktop\LR1\WebApplication1\Views\Home\Index.cshtml
