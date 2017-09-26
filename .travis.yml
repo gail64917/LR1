@@ -1,9 +1,21 @@
-language: csharp  
-sudo: required  
-dist: trusty  
+language: csharp
+solution: LabWork1.sln
 mono: none
 dotnet: 2.0.0
-before-script:
-  - dotnet restore
-script:
-  - dotnet test ./XUnitTestProject1 -c Release -f netcoreapp2.0
+dist: trusty
+before_script:
+- chmod a+x ./build.bash
+- chmod a+x ./test.bash
+jobs:
+  include:
+  - stage: build
+    script: "./build.bash"
+  - stage: test
+    script: "./test.bash"
+  - stage: deploy
+    script: skip
+deploy:
+  provider: azure_web_apps
+  username: gail64917@yandex.ru      
+  password: secret_password
+  site: http://lr120170914065559.azurewebsites.net

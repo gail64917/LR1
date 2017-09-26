@@ -13,6 +13,10 @@ using System.Threading.Tasks;
 using Newtonsoft.Json;
 using System.Net;
 using System.Text;
+using LR1.Models;
+using System.Collections.Generic;
+using System.Collections.ObjectModel;
+using System.Linq;
 
 namespace XUnitTest
 {
@@ -21,8 +25,9 @@ namespace XUnitTest
         [Fact]
         public void StudentRepositoryExistsTest()
         {
-            var result = 0;
-            Assert.Equal(result, Program.SuccesCode());
+            var result = Program.SuccesCode();
+            var expect = 0;
+            Assert.Equal(result, expect);
         }
     }
 }
