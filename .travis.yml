@@ -4,14 +4,14 @@ mono: none
 dotnet: 2.0.0
 dist: trusty
 before_script:
-- chmod a+x ./build.bash
-- chmod a+x ./test.bash
+- chmod a+x ./build.sh
+- chmod a+x ./test.sh
 jobs:
   include:
   - stage: build
-    script: "./build.bash"
+    script: "./build.sh"
   - stage: test
-    script: "./test.bash"
+    script: "./test.sh"
   - stage: deploy
     script: skip
 deploy:
