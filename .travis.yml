@@ -1,5 +1,6 @@
 language: csharp
 solution: LabWork1.sln
+sudo: required
 mono: none
 dotnet: 2.0.0
 dist: trusty
