@@ -7,7 +7,7 @@ namespace LR1.Models
 {
     public enum Grade
     {
-        Отлично, Хорошо, Удовлетворительно, Неудовлетворительно
+        Great, Good, Bad, Worse
     }
 
     public class Enrollment

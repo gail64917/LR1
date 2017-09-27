@@ -35,29 +35,29 @@ namespace XUnitTest
         [Fact]
         public void CourseInfoTest()
         {
-            var course = new Course { CourseID = 1, StudyCredits = 10, Title = "РСОИ" };
+            var course = new Course { CourseID = 1, StudyCredits = 10, Title = "RSOI" };
             var result = course.CourseInfo();
-            var expect = "Название курса: РСОИ. Количество часов: 10.";
+            var expect = "Course name: RSOI. Amount of hours: 10.";
             Assert.Equal(result, expect);
         }
 
         [Fact]
         public void StudentInfoTest()
         {
-            var student = new Student { ID=1, LastName="Новоженов", FirstMidName="Владимир"};
+            var student = new Student { ID=1, LastName="Novozhenov", FirstMidName="Vladimir"};
             var result = student.StudentInfo();
-            var expect = "Фамилия: Новоженов. Имя: Владимир.";
+            var expect = "Surname: Novozhenov. Name: Vladimir.";
             Assert.Equal(result, expect);
         }
 
         [Fact]
         public void EnrollmentInfoTest()
         {
-            var course = new Course { CourseID = 1, StudyCredits = 10, Title = "РСОИ" };
-            var student = new Student { ID = 1, LastName = "Новоженов", FirstMidName = "Владимир" };
-            var enrollment = new Enrollment { Student = student, Course = course, Grade = Grade.Отлично };
+            var course = new Course { CourseID = 1, StudyCredits = 10, Title = "RSOI" };
+            var student = new Student { ID = 1, LastName = "Novozhenov", FirstMidName = "Vladimir" };
+            var enrollment = new Enrollment { Student = student, Course = course, Grade = Grade.Great };
             var result = enrollment.EnrollmentInfo();
-            var expect = "Студент: Новоженов. Предмет: РСОИ. Оценка: Отлично.";
+            var expect = "Student: Novozhenov. Subject: RSOI. Mark: Great.";
             Assert.Equal(result, expect);
         }
     }

@@ -10,17 +10,17 @@ namespace LR1.Functions
     {
         public static string CourseInfo(this Course course)
         {
-            return "Название курса: " + course.Title.ToString() + ". Количество часов: " + course.StudyCredits + ".";
+            return "Course name: " + course.Title.ToString() + ". Amount of hours: " + course.StudyCredits + ".";
         }
 
         public static string StudentInfo(this Student student)
         {
-            return "Фамилия: " + student.LastName + ". Имя: " + student.FirstMidName + ".";
+            return "Surname: " + student.LastName + ". Name: " + student.FirstMidName + ".";
         }
 
         public static string EnrollmentInfo(this Enrollment enrollment)
         {
-            return "Студент: " + enrollment.Student.LastName + ". Предмет: " + enrollment.Course.Title + ". Оценка: " + enrollment.Grade + "."; 
+            return "Student: " + enrollment.Student.LastName + ". Subject: " + enrollment.Course.Title + ". Mark: " + enrollment.Grade + "."; 
         }
     }
 }
